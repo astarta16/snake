@@ -1,4 +1,3 @@
-#ბიბლიოთეკების იმპორტი
 import pygame
 import random
 import time
