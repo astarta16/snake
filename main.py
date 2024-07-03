@@ -7,7 +7,6 @@ pygame.init()
 
 WIDTH, HEIGHT = 800, 600
 
-#კვადრატების პიქსელები
 CELL_SIZE = 20
 GRID_WIDTH, GRID_HEIGHT = WIDTH // CELL_SIZE, HEIGHT // CELL_SIZE
 
