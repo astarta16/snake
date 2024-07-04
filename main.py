@@ -44,7 +44,6 @@ def draw_objects(snake, apple, elapsed_time):
     
     pygame.display.update()
 
-# რენდომის პრინციპით გამოაქვს ვაშლი ეკრანზე
 def generate_apple(snake):
     while True:
         apple = (random.randint(0, GRID_WIDTH - 1), random.randint(0, GRID_HEIGHT - 1))
