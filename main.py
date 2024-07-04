@@ -26,7 +26,6 @@ font = pygame.font.SysFont("arial", 35)
 def draw_objects(snake, apple, elapsed_time):
     screen.fill(BLACK)
     
-    #ხატავს ოთხკუთხედებს
     for x in range(0, WIDTH, CELL_SIZE):
         for y in range(0, HEIGHT, CELL_SIZE):
             rect = pygame.Rect(x, y, CELL_SIZE, CELL_SIZE)
