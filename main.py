@@ -20,7 +20,6 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Snake")
 
 clock = pygame.time.Clock()
-#ფონტის ტიპი da ფონტის ზომა
 font = pygame.font.SysFont("arial", 35)
 
 
