@@ -23,7 +23,6 @@ clock = pygame.time.Clock()
 font = pygame.font.SysFont("arial", 35)
 
 
-# ფიგურების გამოსახვა და უკანა ფონი
 def draw_objects(snake, apple, elapsed_time):
     screen.fill(BLACK)
     
