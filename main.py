@@ -36,7 +36,6 @@ def draw_objects(snake, apple, elapsed_time):
         
     pygame.draw.rect(screen, RED, (apple[0] * CELL_SIZE, apple[1] * CELL_SIZE, CELL_SIZE, CELL_SIZE))
     
-    #ტაიმერის ტექსი და ტაიმერი    
     timer_text = font.render(f"Time: {elapsed_time:.1f}s", True, WHITE)
     screen.blit(timer_text, (WIDTH - 150, 10))
     
