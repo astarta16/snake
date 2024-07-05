@@ -34,7 +34,6 @@ def draw_objects(snake, apple, elapsed_time):
     for segment in snake:
         pygame.draw.rect(screen, WHITE, (segment[0] * CELL_SIZE, segment[1] * CELL_SIZE, CELL_SIZE, CELL_SIZE))
         
-    #ხატავს ვაშლს
     pygame.draw.rect(screen, RED, (apple[0] * CELL_SIZE, apple[1] * CELL_SIZE, CELL_SIZE, CELL_SIZE))
     
     #ტაიმერის ტექსი და ტაიმერი    
