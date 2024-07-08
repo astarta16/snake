@@ -47,7 +47,6 @@ def generate_apple(snake):
         if apple not in snake:
             return apple
 
-#გამოაქვს წარწერა გეიმ ოუვერი და ტაიმერის სრული დრო
 def display_game_over(total_time):
     screen.fill(BLACK)
     game_over_text = font.render("Game Over", True, RED)
